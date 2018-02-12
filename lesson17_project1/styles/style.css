@@ -58,17 +58,19 @@ nav {
 	justify-content: space-around;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: center;
 	margin-bottom: 15px;
 	line-height: 54px;
 }
+menu li {
+	width: 186px;
+}
 
-.menu li a {
+.menu a {
 	text-decoration: none;
 	color: #FFF;
 	text-transform: uppercase;
 	padding: 19px 72px;
-	width: 100%;
+	/*width: 100%;*/
 
 }
 .menu li .active,
@@ -138,8 +140,57 @@ h3 {
 }
 
 footer p{
-	line-height: 75px;
+	line-height: 75px;	
 	background: #D1E4A7;
 	text-align: center;
 	margin-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+	header {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	section { 
+		width: 100%;
+	 }
+	 aside {
+	 	width: 100%;
+	 	display: flex;
+	 	flex-direction: column;
+	 	justify-content: center;
+	 		
+	 }
+	 .links-block,
+	 .text-block {
+	 	align-self: center;
+	 }
+
+	p {
+		text-align: justify;
+	}
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+	header {
+		width: 100%;
+		flex-flow: column wrap;
+		text-align: center; 
+		line-height: 60px;
+	}
+	 .posts {
+	 	width: 100%;
+	 	align-content: center;
+	 }
+	p {
+		text-align: justify;
+	}
+
+	aside {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
 }
