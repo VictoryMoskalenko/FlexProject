@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #B17E4F;
+	padding: 50px 0 30px;
+	font-size: 13px; 
+	color: #444;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+
+}
+p {
+	line-height: 2;
+}
+header {
+	width: 960px;
+	margin: 0 auto;
+	background: #B17E4F;
+	line-height: 71px;
+	box-sizing: border-box;
+	padding: 0 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.header-title {
+	font-size: 3.4em;
+	letter-spacing: -1px;
+	font-weight: 600;
+	color: #FFF;
+}
+.header-subtitle {
+	font-size: 1.2em;
+	color: #C5B0A4;
+}
+.container{
+	box-sizing: border-box;
+	max-width: 960px;
+	margin: 0 auto;
+	border: 15px solid #FFF;
+	background: #FFF;
+	padding-bottom: 15px;
+}
+
+nav {
+	
+	background: #000;
+}
+.menu {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 15px;
+	line-height: 54px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 19px 72px;
+	width: 100%;
+
+}
+.menu li .active,
+.menu a:hover {
+	background: #1B3039;
+	
+}
+.image {
+	width: 100%;
+
+}
+article {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+section {
+	width: 64%;
+	padding-left: 20px;
+	box-sizing: border-box;
+
+}
+.post h2 {
+	font-size: 3em;
+	letter-spacing: -1px;
+	color: #9F6841;
+}
+.post a,
+footer a {
+	color: #96AE3E;
+}
+aside {
+	margin-top: 20px;
+}
+.links-block,
+.text-block {
+	width: 300px;
+	background: #EFEDE5;
+	margin-bottom: 20px;
+	border: 1px solid #E8E6DE;
+}
+.links-block {
+	padding-bottom: 20px;
+}
+.text-block p {
+	margin: 23px;
+}
+.header-block {
+	margin: 7px;
+	background: #5D9EBD;
+	line-height: 40px;
+}
+h3 {
+	color: #FFF;
+	margin-left: 12px;
+	font-size: 1.5em;
+}
+.links li {
+	line-height: 33px;
+	border-bottom: 1px solid #DDD;
+	padding-left: 15px;
+}
+.links a {
+	margin-left: 10px;
+	color: #96AE3E;
+}
+
+footer p{
+	line-height: 75px;
+	background: #D1E4A7;
+	text-align: center;
+	margin-top: 40px;
+}
